@@ -1,0 +1,164 @@
+.progress_bar {
+  border: 2px solid black;
+  border-radius: 5px;
+  width: auto;
+  height: auto;
+  background: linear-gradient(to bottom, #420327 50%, #5a0534 50%);
+  transform: skewX(-10deg);
+}
+
+.progress_bar .inline {
+  background: linear-gradient(to bottom, #e37320 50%, #cf5b40 50%);
+  border-radius: 5px;
+  display: block;
+  width: 50%;
+  height: 100%;
+}
+/**************************************************************************/
+.cup_progress_bar {
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 100%;
+  height: 35px;
+  display: inline-block;
+  background: linear-gradient(to bottom, #420327 50%, #5a0534 50%);
+  transform: skewX(-10deg);
+}
+
+.cup_progress_bar .inline {
+  background: linear-gradient(to bottom, #e37320 50%, #cf5b40 50%);
+  border-radius: 5px;
+  display: block;
+  width: 50%;
+  height: 100%;
+}
+.cup_container {
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  transform: scale(0.8);
+}
+.cup_container .badge {
+  display: inline-flex;
+  position: relative;
+  z-index: 5;
+}
+.cup_container .badge .level {
+  position: relative;
+  width: 50px;
+  height: 55px;
+  display: inline-block;
+  background-size: 100% 100%;
+}
+.cup_container .badge .level_text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 90%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  font-weight: 800;
+}
+.cup_container .badge .level_text .limit_max {
+  font-weight: 100;
+}
+.cup_container .icon {
+  display: inline-block;
+  position: relative;
+}
+/*********************/
+.cup_container .icon .cup {
+  width: 25px;
+  height: 25px;
+  background-size: 100% 100%;
+  z-index: 5;
+}
+.ico_cup {
+  background-image: url("/ass/trophy_optimized.png");
+}
+.ico_mastery {
+  background-image: url("/ass/mastery/icon_mastery_point.png");
+}
+.brand_level_1 {
+  background-image: url("/ass/brand/1.png");
+}
+.brand_level_2 {
+  background-image: url("/ass/brand/2.png");
+}
+.brand_level_3 {
+  background-image: url("/ass/brand/3.png");
+}
+.brand_level_4 {
+  background-image: url("/ass/brand/4.png");
+}
+.brand_level_5 {
+  background-image: url("/ass/brand/5.png");
+}
+.brand_level_6 {
+  background-image: url("/ass/brand/6.png");
+}
+.brand_level_7 {
+  background-image: url("/ass/brand/7.png");
+}
+.brand_level_8 {
+  background-image: url("/ass/brand/8.png");
+}
+.mastery_cup_1 {
+  background-image: url("/ass/mastery/1.png");
+}
+.mastery_cup_2 {
+  background-image: url("/ass/mastery/2.png");
+}
+.mastery_cup_3 {
+  background-image: url("/ass/mastery/3.png");
+}
+.mastery_cup_4 {
+  background-image: url("/ass/mastery/4.png");
+}
+
+/*********************/
+.cup_container .icon .cup_number {
+  font-size: 1.5em;
+  font-weight: 800;
+}
+.cup_bar_mastery.text::before {
+  background: #fff !important;
+  background-clip: text !important;
+  -webkit-background-clip: text !important;
+}
+.cup_container .icon .text::before {
+  background: #fcbc22;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.panel {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  left: -10px;
+  display: inline-flex;
+  align-items: center;
+}
+.c.panel {
+  left: -26px;
+}
+.panel .icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+.panel .cup_progress_bar {
+  position: relative;
+  top: 0;
+  left: 0;
+}

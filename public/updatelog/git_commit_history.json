@@ -1,0 +1,1255 @@
+[
+    {
+        "hash": "5ac5e2ef013388d27d7ed6a891f39604375bbde1",
+        "author": "LittleDuck-LD",
+        "date": "2024-08-04 18:05:03 +0800",
+        "summary": "我不干了。",
+        "description": ""
+    },
+    {
+        "hash": "ed88f3d52bc4b40713a37ad99322154d379512f5",
+        "author": "LittleDuck-LD",
+        "date": "2024-07-26 18:00:27 +0800",
+        "summary": "特别感谢改颜色。",
+        "description": ""
+    },
+    {
+        "hash": "872f127d421bff510396464b4a2bec2373ecd5f3",
+        "author": "LittleDuck-LD",
+        "date": "2024-07-24 00:23:57 +0800",
+        "summary": "参考注册日期",
+        "description": ""
+    },
+    {
+        "hash": "bada18c5ba85a4f6f53ea7e654f313cf1ad0d374",
+        "author": "LittleDuck-LD",
+        "date": "2024-07-23 22:25:23 +0800",
+        "summary": "维护",
+        "description": ""
+    },
+    {
+        "hash": "2ec33aca42f37d15aa23912f0ae1f6fa436c1887",
+        "author": "LittleDuck-LD",
+        "date": "2024-07-23 21:21:52 +0800",
+        "summary": "维护好了。",
+        "description": ""
+    },
+    {
+        "hash": "e79a1e7c90d7ddfe44c06cdea20498cbc4bb1115",
+        "author": "LittleDuck-LD",
+        "date": "2024-07-23 21:08:38 +0800",
+        "summary": "Update Home.vue",
+        "description": ""
+    },
+    {
+        "hash": "9db97a49dcadb6d3600f28cbeb15554106c177d7",
+        "author": "LittleDuck-LD",
+        "date": "2024-07-23 20:27:53 +0800",
+        "summary": "挂维护",
+        "description": ""
+    },
+    {
+        "hash": "013fe27b547250278a0cafe56f0128f2b89e0143",
+        "author": "LittleDuck-LD",
+        "date": "2024-07-23 11:32:15 +0800",
+        "summary": "图片压缩，节省加载时间超一半",
+        "description": ""
+    },
+    {
+        "hash": "bf3f318c4c4d43e1001b8d22418cb755b1e631c6",
+        "author": "LittleDuck-LD",
+        "date": "2024-07-18 13:24:50 +0800",
+        "summary": "Update aboutview.vue",
+        "description": ""
+    },
+    {
+        "hash": "141d296f51a9ffd3e75660de0a89b4b5170f6899",
+        "author": "LittleDuck-LD",
+        "date": "2024-07-18 13:20:55 +0800",
+        "summary": "gousi egan。",
+        "description": ""
+    },
+    {
+        "hash": "45f0bbffc043650b9d20b0e08061d12b903edba7",
+        "author": "nuomi_Again",
+        "date": "2024-07-17 15:22:02 +0800",
+        "summary": "移动端样式优化",
+        "description": ""
+    },
+    {
+        "hash": "63dc5876c8e9ee2a5b19adafb41450282ba7eece",
+        "author": "nuomi_Again",
+        "date": "2024-07-17 15:07:44 +0800",
+        "summary": ".",
+        "description": ""
+    },
+    {
+        "hash": "8c4a0114aa9e113635af0c29701801ba411ea9cc",
+        "author": "nuomi_Again",
+        "date": "2024-07-17 14:54:11 +0800",
+        "summary": "修复",
+        "description": ""
+    },
+    {
+        "hash": "5005602f23893af361a84d89011d12028930cf8c",
+        "author": "nuomi_Again",
+        "date": "2024-07-17 13:55:51 +0800",
+        "summary": "更新了一些BUG和Beta2内容",
+        "description": ""
+    },
+    {
+        "hash": "4f4625411cf6ba08abf735cc51919798b28957e4",
+        "author": "LittleDuck-LD",
+        "date": "2024-07-16 15:25:18 +0800",
+        "summary": "玩家ID。",
+        "description": ""
+    },
+    {
+        "hash": "5d6700f923e19289cee99e29663fa332b8cb6a89",
+        "author": "LittleDuck-LD",
+        "date": "2024-07-16 11:48:14 +0800",
+        "summary": "素材更新，金券显示更正",
+        "description": ""
+    },
+    {
+        "hash": "a50dcbca629790d12dba53b129a5f677189194b8",
+        "author": "LittleDuck-LD",
+        "date": "2024-07-15 22:12:40 +0800",
+        "summary": "调整版本号，优化主页内容,stop spacate",
+        "description": ""
+    },
+    {
+        "hash": "f4bd60725250262ed2db7626a1063edd8dbc82dc",
+        "author": "LittleDuck-LD",
+        "date": "2024-07-15 21:38:25 +0800",
+        "summary": "优化+上线老功能！！！！！！！！",
+        "description": "南崩sc。\n"
+    },
+    {
+        "hash": "4923f3e207ca04a6a13bccc856e49bbe04c1b12c",
+        "author": "LittleDuck-LD",
+        "date": "2024-07-10 23:37:56 +0800",
+        "summary": "优化体验",
+        "description": ""
+    },
+    {
+        "hash": "534ef91583c5dffdb2c4a78e35bee8a11d976865",
+        "author": "LittleDuck-LD",
+        "date": "2024-07-10 01:52:50 +0800",
+        "summary": "debug",
+        "description": ""
+    },
+    {
+        "hash": "47177b080ca7f2f07aa3ea641f71c8eaa4b3148a",
+        "author": "LittleDuck-LD",
+        "date": "2024-07-10 00:53:26 +0800",
+        "summary": "日语+俄语支持！",
+        "description": ""
+    },
+    {
+        "hash": "ef25e016422dd7beee9ebd9fa835c4f1124e2c3e",
+        "author": "nuomi_Again",
+        "date": "2024-07-09 09:34:36 +0800",
+        "summary": "修复主页中有空占位元素的问题",
+        "description": ""
+    },
+    {
+        "hash": "4da2a3c42586aced1d47f73d4543f517cc7540f2",
+        "author": "nuomi_Again",
+        "date": "2024-07-09 08:58:54 +0800",
+        "summary": "修复一些样式的错误",
+        "description": ""
+    },
+    {
+        "hash": "234e458c954f3513cce7ff16970b93559e5db121",
+        "author": "LittleDuck-LD",
+        "date": "2024-07-09 01:07:12 +0800",
+        "summary": "debug",
+        "description": ""
+    },
+    {
+        "hash": "57453407e04814c09cb394a07df6f558a1acd42a",
+        "author": "LittleDuck-LD",
+        "date": "2024-07-09 00:17:51 +0800",
+        "summary": "语言修正，添加请求参数lang",
+        "description": ""
+    },
+    {
+        "hash": "6779a91c631175272ec59b69c1914f995b60d08e",
+        "author": "LittleDuck-LD",
+        "date": "2024-07-09 00:05:44 +0800",
+        "summary": "备份link",
+        "description": ""
+    },
+    {
+        "hash": "b9edc7b0359643f5b1c5b410c887297f8c2f2880",
+        "author": "LittleDuck-LD",
+        "date": "2024-07-08 22:16:38 +0800",
+        "summary": "0.2.0",
+        "description": ""
+    },
+    {
+        "hash": "e98362f070b87ce1243cb983b9348d314c30280d",
+        "author": "Skywalker",
+        "date": "2024-07-08 13:28:07 +0800",
+        "summary": "Update Home.vue",
+        "description": ""
+    },
+    {
+        "hash": "8e117e0af93ca994fb64ced417706e7923d9a1d8",
+        "author": "Skywalker",
+        "date": "2024-07-08 13:23:52 +0800",
+        "summary": "Update Home.vue",
+        "description": "修复一些问题"
+    },
+    {
+        "hash": "67f4bf0c6a02b52aaa4f75a870a16ac0defbbf91",
+        "author": "nuomi_Again",
+        "date": "2024-07-08 11:59:56 +0800",
+        "summary": "继续完善新页面，也增加了一些问题",
+        "description": ""
+    },
+    {
+        "hash": "d1e162b283ba00b6ec2af9915cff18b1c2dc29d1",
+        "author": "LittleDuck-LD",
+        "date": "2024-07-08 07:16:31 +0800",
+        "summary": "备用链接",
+        "description": ""
+    },
+    {
+        "hash": "7f4891629b5e1b3be15a854efaafe0130be4f96d",
+        "author": "LittleDuck-LD",
+        "date": "2024-07-07 22:55:05 +0800",
+        "summary": "特意为starrpark而更新版本号。",
+        "description": ""
+    },
+    {
+        "hash": "9456b461b1eaf7a5a5f8c6012742a77c52f32447",
+        "author": "LittleDuck-LD",
+        "date": "2024-07-07 22:53:40 +0800",
+        "summary": "ios与部分设备不能正常使用themeview，渐变名字函数优化",
+        "description": "感谢starrpark提出bug。\n"
+    },
+    {
+        "hash": "4f93e6ecd0ffe67e30b32fe3eb7ff3924a0f7494",
+        "author": "LittleDuck-LD",
+        "date": "2024-07-07 20:09:56 +0800",
+        "summary": "app内置浏览器检测+提示",
+        "description": ""
+    },
+    {
+        "hash": "3f9e250735e10f7e97de7859e0efa130e9c7da7d",
+        "author": "LittleDuck-LD",
+        "date": "2024-07-07 18:44:14 +0800",
+        "summary": "routerlink-滚动",
+        "description": ""
+    },
+    {
+        "hash": "542676526ce7e37b95c4ca21fa03f5b61153f0b3",
+        "author": "LittleDuck-LD",
+        "date": "2024-07-07 18:25:49 +0800",
+        "summary": "国际服-全能挑战赛删除",
+        "description": ""
+    },
+    {
+        "hash": "1be5fda46643460b1563a41d0bbbce80eeafa9ab",
+        "author": "LittleDuck-LD",
+        "date": "2024-07-07 17:52:45 +0800",
+        "summary": "隐藏模式！！！！！",
+        "description": ""
+    },
+    {
+        "hash": "6ae01e8395d3f7d7e58c8a468cf4fd0c8ef9bffc",
+        "author": "EmberHeart",
+        "date": "2024-07-06 15:49:22 +0800",
+        "summary": "Update vite.config.js",
+        "description": ""
+    },
+    {
+        "hash": "ef8578bdc320ab474a4bfa34ef6bac5964635667",
+        "author": "nuomi_Again",
+        "date": "2024-07-06 15:44:47 +0800",
+        "summary": "更新一些Beta2的内容，尚不可用",
+        "description": ""
+    },
+    {
+        "hash": "75dbb3f0f307762624be1df02606788a0d5b07bf",
+        "author": "LittleDuck-LD",
+        "date": "2024-07-06 00:57:49 +0800",
+        "summary": "themes",
+        "description": ""
+    },
+    {
+        "hash": "80fb80432086b6f849280263778ec3d66ef2427e",
+        "author": "LittleDuck-LD",
+        "date": "2024-07-05 07:02:01 +0800",
+        "summary": "维护：国服更新",
+        "description": ""
+    },
+    {
+        "hash": "ec1f1bc1327b03acbbfbc3355081678569f24af7",
+        "author": "LittleDuck-LD",
+        "date": "2024-07-03 23:20:27 +0800",
+        "summary": "星辉===>星徽",
+        "description": ""
+    },
+    {
+        "hash": "e3e5c0dbc0b6d00a7bc56d55bae9e2488745bb4c",
+        "author": "LittleDuck-LD",
+        "date": "2024-07-03 23:08:44 +0800",
+        "summary": "对战日志接入userview",
+        "description": ""
+    },
+    {
+        "hash": "15a7f4c252d391d9072f62ed1cbcdea482d4a4c3",
+        "author": "LittleDuck-LD",
+        "date": "2024-07-02 12:50:28 +0800",
+        "summary": "网站状态，跟踪玩家大写",
+        "description": ""
+    },
+    {
+        "hash": "d55cd1102f835aa9c712970cbd78f2973ac1ee35",
+        "author": "LittleDuck-LD",
+        "date": "2024-07-02 10:41:19 +0800",
+        "summary": "修头衔",
+        "description": ""
+    },
+    {
+        "hash": "5a75b2190a47977a6f95d990628c83da30c25e68",
+        "author": "LittleDuck-LD",
+        "date": "2024-07-02 10:22:55 +0800",
+        "summary": "修复金券又白名bug，加群拿密钥优化",
+        "description": ""
+    },
+    {
+        "hash": "d36103f4856df490282e83634edc42d6e5d15720",
+        "author": "LittleDuck-LD",
+        "date": "2024-07-01 11:13:36 +0800",
+        "summary": "加群。",
+        "description": ""
+    },
+    {
+        "hash": "e071471d50088f5b431d6bb5557de514b4de8101",
+        "author": "LittleDuck-LD",
+        "date": "2024-06-30 18:26:21 +0800",
+        "summary": "Update battlelog.vue",
+        "description": ""
+    },
+    {
+        "hash": "78fd5eb49ebc94777ea5998ad8c8ff0e11b33c30",
+        "author": "LittleDuck-LD",
+        "date": "2024-06-30 17:53:52 +0800",
+        "summary": "0.1.5,对战日志，密钥迁移",
+        "description": ""
+    },
+    {
+        "hash": "c6569001da216ba9466a9780188aeb7dc973127d",
+        "author": "LittleDuck-LD",
+        "date": "2024-06-30 12:24:07 +0800",
+        "summary": "文字渐变，金券检测，总专精",
+        "description": ""
+    },
+    {
+        "hash": "0fe3871ff697f479034cb7331a210335910098cd",
+        "author": "LittleDuck-LD",
+        "date": "2024-06-29 22:23:31 +0800",
+        "summary": "渐变文字测试",
+        "description": ""
+    },
+    {
+        "hash": "a1404232eeac90a48a46d61eebc123ab033770b2",
+        "author": "LittleDuck-LD",
+        "date": "2024-06-29 07:00:12 +0800",
+        "summary": "Update Home.vue",
+        "description": ""
+    },
+    {
+        "hash": "6eb779171d570c2957bd02d9a3473d2c34408930",
+        "author": "LittleDuck-LD",
+        "date": "2024-06-29 06:57:49 +0800",
+        "summary": "维护",
+        "description": ""
+    },
+    {
+        "hash": "f7a6c1b10462cc4007b6a0e01c97e5f442ad6310",
+        "author": "LittleDuck-LD",
+        "date": "2024-06-28 23:40:04 +0800",
+        "summary": "提示",
+        "description": ""
+    },
+    {
+        "hash": "2a989b2de64618f1575637d1a2fab14f33b7af4b",
+        "author": "LittleDuck-LD",
+        "date": "2024-06-28 23:35:18 +0800",
+        "summary": "修bug",
+        "description": ""
+    },
+    {
+        "hash": "bd79ab91aee92bbf147f392be2af90cd47137f0c",
+        "author": "LittleDuck-LD",
+        "date": "2024-06-28 23:34:45 +0800",
+        "summary": "0.1.2",
+        "description": ""
+    },
+    {
+        "hash": "cd1d9e33d625135889e0f1e6ab2597e694bba703",
+        "author": "LittleDuck-LD",
+        "date": "2024-06-27 00:06:37 +0800",
+        "summary": "名称颜色bug修复",
+        "description": ""
+    },
+    {
+        "hash": "bdcc3fabb33a53c6cf6121aa84d49c349b5d0524",
+        "author": "LittleDuck-LD",
+        "date": "2024-06-22 16:42:34 +0800",
+        "summary": "名称颜色，关于优化",
+        "description": ""
+    },
+    {
+        "hash": "3da951abf9ce9903ef8bbc031247ed9bb8855b4e",
+        "author": "LittleDuck-LD",
+        "date": "2024-06-22 00:09:45 +0800",
+        "summary": "关于-版本号、说明/排行榜所有单英雄/所有玩家查询增加是否购买了金券的查询/特别感谢更新",
+        "description": ""
+    },
+    {
+        "hash": "f8b80ea26b3a8f8c50637c779681f9cdaa5e61b3",
+        "author": "LittleDuck-LD",
+        "date": "2024-06-21 00:22:54 +0800",
+        "summary": "优化对战查看界面",
+        "description": ""
+    },
+    {
+        "hash": "267a1ea44a8bf1bbeaa024c253cba1c5f1a7c33c",
+        "author": "LittleDuck-LD",
+        "date": "2024-06-21 00:12:37 +0800",
+        "summary": "乱斗TV",
+        "description": ""
+    },
+    {
+        "hash": "ea7c989e72faa5a42bafe444cd9736194b8c090c",
+        "author": "LittleDuck-LD",
+        "date": "2024-06-20 23:22:17 +0800",
+        "summary": "API修复",
+        "description": ""
+    },
+    {
+        "hash": "ebd65f737c16e8ffd1c356e4c589b6783737859b",
+        "author": "LittleDuck-LD",
+        "date": "2024-06-15 23:49:43 +0800",
+        "summary": "修bug",
+        "description": ""
+    },
+    {
+        "hash": "20e2f18388da9c2fabf473c22bfba5c463d25bac",
+        "author": "LittleDuck-LD",
+        "date": "2024-06-15 23:16:15 +0800",
+        "summary": "修主题浏览器bug",
+        "description": ""
+    },
+    {
+        "hash": "977c110ce58e766d31f8b5112845e151b8fdf15f",
+        "author": "LittleDuck-LD",
+        "date": "2024-06-15 23:06:39 +0800",
+        "summary": "更新日志",
+        "description": ""
+    },
+    {
+        "hash": "cfeb4719e7cf6fde183faaf610f6f444aa29e5db",
+        "author": "LittleDuck-LD",
+        "date": "2024-06-15 23:05:39 +0800",
+        "summary": "主题浏览器上线，",
+        "description": ""
+    },
+    {
+        "hash": "cf8929973b859f9fb4a761e482ac1f2086f23e17",
+        "author": "LittleDuck-LD",
+        "date": "2024-06-14 06:55:10 +0800",
+        "summary": "Update aboutview.vue",
+        "description": ""
+    },
+    {
+        "hash": "ab432b2e1a9225491776b3f170f88028ec817bfb",
+        "author": "LittleDuck-LD",
+        "date": "2024-06-13 22:43:24 +0800",
+        "summary": "音乐准备，取消维护。",
+        "description": ""
+    },
+    {
+        "hash": "95a949312e14a5dd527de793570bbbf9028fd413",
+        "author": "LittleDuck-LD",
+        "date": "2024-06-08 13:06:40 +0800",
+        "summary": "Update Home.vue",
+        "description": ""
+    },
+    {
+        "hash": "4155f361d9226fe2224d7c047ff4175ad81a1baa",
+        "author": "LittleDuck-LD",
+        "date": "2024-06-06 23:56:36 +0800",
+        "summary": "维护",
+        "description": ""
+    },
+    {
+        "hash": "a504aafdc9b7f26b67dae2ff6166e2fbaa668302",
+        "author": "LittleDuck-LD",
+        "date": "2024-06-02 12:20:23 +0800",
+        "summary": "维护完成",
+        "description": ""
+    },
+    {
+        "hash": "e0ce9aad45e75b7e2de311347ea743cfbc0f0683",
+        "author": "LittleDuck-LD",
+        "date": "2024-06-02 12:03:48 +0800",
+        "summary": "普通优化",
+        "description": ""
+    },
+    {
+        "hash": "5e8d6dd22ec6fd786347d24a2371d07d04775fd0",
+        "author": "LittleDuck-LD",
+        "date": "2024-05-30 21:37:43 +0800",
+        "summary": "Update git_commit_history.json",
+        "description": ""
+    },
+    {
+        "hash": "dcfb25eb8df421bff0f847ec70529805fc13d4a6",
+        "author": "LittleDuck-LD",
+        "date": "2024-05-29 23:28:47 +0800",
+        "summary": "排行榜类型+=2",
+        "description": ""
+    },
+    {
+        "hash": "db953e5dcfb906fadd9f7c1bd83312cbf238bcdc",
+        "author": "LittleDuck-LD",
+        "date": "2024-05-28 23:44:41 +0800",
+        "summary": "排行榜上线+Home优化",
+        "description": ""
+    },
+    {
+        "hash": "ec43c52f77ec590936d5504607a832be26b326b6",
+        "author": "LittleDuck-LD",
+        "date": "2024-05-26 22:13:44 +0800",
+        "summary": "关于-反馈",
+        "description": ""
+    },
+    {
+        "hash": "09bcd70a9a5d9fa751d7b162c22481d724241212",
+        "author": "LittleDuck-LD",
+        "date": "2024-05-26 21:49:27 +0800",
+        "summary": "改网站图标",
+        "description": ""
+    },
+    {
+        "hash": "cfd763f08bab04897c2d9bc3e952a32ad65c0099",
+        "author": "LittleDuck-LD",
+        "date": "2024-05-26 17:53:56 +0800",
+        "summary": "修复累计进房人数",
+        "description": ""
+    },
+    {
+        "hash": "31390c3a379d670bd1e0fe0535ab84023fc0ba86",
+        "author": "LittleDuck-LD",
+        "date": "2024-05-26 16:29:23 +0800",
+        "summary": "进房人数更新",
+        "description": ""
+    },
+    {
+        "hash": "a2822e51d3a3bfa16cd1d51460f13d19885c6ca6",
+        "author": "LittleDuck-LD",
+        "date": "2024-05-26 15:37:59 +0800",
+        "summary": "安卓检测修复",
+        "description": ""
+    },
+    {
+        "hash": "930f09d78a56c4a8c72a5e53fd3e9b3a7ecfade1",
+        "author": "LittleDuck-LD",
+        "date": "2024-05-26 15:19:19 +0800",
+        "summary": "修复roomlobby加载失败",
+        "description": ""
+    },
+    {
+        "hash": "3b953c08214165bdc9d58009ac40daed86a5c77f",
+        "author": "LittleDuck-LD",
+        "date": "2024-05-26 15:15:01 +0800",
+        "summary": "上线房间大厅功能，快速启动修复安卓不能正确检测是否安装荒野乱斗的bug",
+        "description": ""
+    },
+    {
+        "hash": "9ec409dd4e3274ee07f736c9cb5c096c6f4fa858",
+        "author": "LittleDuck-LD",
+        "date": "2024-05-26 09:58:58 +0800",
+        "summary": "修复个人信息查询不显示饰品信息的问题x2",
+        "description": ""
+    },
+    {
+        "hash": "21c5f77b49eb60183ee832c31f1e4b31f21cea78",
+        "author": "LittleDuck-LD",
+        "date": "2024-05-26 09:55:25 +0800",
+        "summary": "修复个人信息查询不显示饰品信息的问题",
+        "description": ""
+    },
+    {
+        "hash": "d1af808e7bcda3f71aaa2298738c90132f3bd0db",
+        "author": "LittleDuck-LD",
+        "date": "2024-05-26 09:20:55 +0800",
+        "summary": "修复战队查询问题",
+        "description": ""
+    },
+    {
+        "hash": "7fc0a35d54e1ecf86ddaf6c8d7ec26bf9160bef3",
+        "author": "LittleDuck-LD",
+        "date": "2024-05-26 00:46:27 +0800",
+        "summary": "git修复，修复快速启动进别人房间bug",
+        "description": ""
+    },
+    {
+        "hash": "3e24f06d9a92f1062e575345fb716814705ad73e",
+        "author": "LittleDuck-LD",
+        "date": "2024-05-25 21:28:38 +0800",
+        "summary": "更新全局函数",
+        "description": ""
+    },
+    {
+        "hash": "f5ca8484b09f35e6c3aef4e477738257c5031604",
+        "author": "LittleDuck-LD",
+        "date": "2024-05-25 21:17:21 +0800",
+        "summary": "userview半重构",
+        "description": ""
+    },
+    {
+        "hash": "d8b3de30faf76ff794b85220cbe93a735570e35e",
+        "author": "LittleDuck-LD",
+        "date": "2024-05-25 20:07:33 +0800",
+        "summary": "尝试将推荐tag内容放入组件",
+        "description": ""
+    },
+    {
+        "hash": "2bc3ea2da83f15eaa7b3b0850661e2c4989dc1d7",
+        "author": "LittleDuck-LD",
+        "date": "2024-05-25 18:58:42 +0800",
+        "summary": "git修正",
+        "description": ""
+    },
+    {
+        "hash": "0ad8ae8d99018c900cc6583045f5ab3361e28c31",
+        "author": "LittleDuck-LD",
+        "date": "2024-05-25 18:46:20 +0800",
+        "summary": "第一次用提交记录有点不习惯",
+        "description": ""
+    },
+    {
+        "hash": "73a296f425befff6b0d7e9eb2fa2a6a385f16b73",
+        "author": "LittleDuck-LD",
+        "date": "2024-05-25 18:45:46 +0800",
+        "summary": "喷漆显示，更新日志，网站图标，名称颜色准备，全局函数更新",
+        "description": "你好。\n"
+    },
+    {
+        "hash": "1f4d48bb919dcf62f66bfecfe5d1958764d4529a",
+        "author": "LittleDuck-LD",
+        "date": "2024-05-25 15:50:47 +0800",
+        "summary": "debug",
+        "description": ""
+    },
+    {
+        "hash": "ab09313a11e801798933ed1b0029face3fa58654",
+        "author": "LittleDuck-LD",
+        "date": "2024-05-25 15:38:17 +0800",
+        "summary": "地图数据",
+        "description": ""
+    },
+    {
+        "hash": "2e5c315b45096b940110528ded8f44a324d8e2ff",
+        "author": "LittleDuck-LD",
+        "date": "2024-05-25 12:04:31 +0800",
+        "summary": "debug",
+        "description": ""
+    },
+    {
+        "hash": "32f41dda3c4dd766a6091a73d59ccf4c7a15fdf9",
+        "author": "LittleDuck-LD",
+        "date": "2024-05-25 11:12:10 +0800",
+        "summary": "快速启动优化类型，Home移动端按router-link后往下翻",
+        "description": ""
+    },
+    {
+        "hash": "2f99ee5beea2929df8ee1fe84bc8d2a68a293ccd",
+        "author": "LittleDuck-LD",
+        "date": "2024-05-25 00:57:39 +0800",
+        "summary": "debug",
+        "description": ""
+    },
+    {
+        "hash": "a44e4306856196ce546e4b6802c4f0aaabeb65ef",
+        "author": "LittleDuck-LD",
+        "date": "2024-05-25 00:55:52 +0800",
+        "summary": "优化clubview头像偏移，quickstart加东西",
+        "description": ""
+    },
+    {
+        "hash": "7576588c8c445b8fb4311b2214b1b9cfd21a9bfa",
+        "author": "LittleDuck-LD",
+        "date": "2024-05-24 22:17:18 +0800",
+        "summary": "EDB",
+        "description": ""
+    },
+    {
+        "hash": "f4871fbff1af0e150ef0203adaa44f848a32dcf7",
+        "author": "LittleDuck-LD",
+        "date": "2024-05-24 22:13:47 +0800",
+        "summary": "clubview更新猪猪，quickstart更新建房，全更新参考信息",
+        "description": ""
+    },
+    {
+        "hash": "c896818752c845743dbb50210e30a95cbe832107",
+        "author": "LittleDuck-LD",
+        "date": "2024-05-24 21:02:00 +0800",
+        "summary": "快速启动优化检测，战队view更新mdui card，优化全局设置、脚本",
+        "description": ""
+    },
+    {
+        "hash": "98be9a7e540d3bf6d02e50336f42167abb22fa36",
+        "author": "LittleDuck-LD",
+        "date": "2024-05-24 00:15:40 +0800",
+        "summary": "debug",
+        "description": ""
+    },
+    {
+        "hash": "180fcdb015dd312370a5c542a513e1a60bbf4b95",
+        "author": "LittleDuck-LD",
+        "date": "2024-05-24 00:14:29 +0800",
+        "summary": "主页加MDUI，加推荐玩家",
+        "description": ""
+    },
+    {
+        "hash": "cc8e8e9f24418ae8c0fa0fc68e54ef9fa9af517a",
+        "author": "LittleDuck-LD",
+        "date": "2024-05-23 23:44:11 +0800",
+        "summary": "修复地图显示问题",
+        "description": ""
+    },
+    {
+        "hash": "9d095f2749d5117960db79c05d420510e7c168c0",
+        "author": "LittleDuck-LD",
+        "date": "2024-05-23 22:21:31 +0800",
+        "summary": "优化地图显示",
+        "description": ""
+    },
+    {
+        "hash": "4c0250d21266d2d51a799f990258e010b85f7d43",
+        "author": "LittleDuck-LD",
+        "date": "2024-05-23 22:18:25 +0800",
+        "summary": "没带倒拇指检测，自定义地图透视作者",
+        "description": ""
+    },
+    {
+        "hash": "bd5d8d063d27c1dfeb608ea6b4d9e45ebeda148d",
+        "author": "LittleDuck-LD",
+        "date": "2024-05-22 00:34:04 +0800",
+        "summary": "seed",
+        "description": ""
+    },
+    {
+        "hash": "aa1c2c75823499988305f60096086315c138bdc1",
+        "author": "LittleDuck-LD",
+        "date": "2024-05-22 00:14:23 +0800",
+        "summary": "队伍查看，倒拇指醒目提醒",
+        "description": ""
+    },
+    {
+        "hash": "2a841f7019c5cf98944bd1defe3752f08516a17a",
+        "author": "LittleDuck-LD",
+        "date": "2024-05-20 23:57:57 +0800",
+        "summary": "喷漆准备，对战查询更新地图，模式显示",
+        "description": ""
+    },
+    {
+        "hash": "ce4c9eca50a3a9a499a35c539b25ea57efa4a55e",
+        "author": "LittleDuck-LD",
+        "date": "2024-05-20 01:33:38 +0800",
+        "summary": "战队",
+        "description": ""
+    },
+    {
+        "hash": "3800b8a5a960230e900fd7aefa8c07c4a97a72fd",
+        "author": "LittleDuck-LD",
+        "date": "2024-05-20 01:14:26 +0800",
+        "summary": "紧急修复",
+        "description": ""
+    },
+    {
+        "hash": "1caacf7053b52767842e4f148b92e54f35a98429",
+        "author": "LittleDuck-LD",
+        "date": "2024-05-20 01:13:27 +0800",
+        "summary": "debug",
+        "description": ""
+    },
+    {
+        "hash": "5d80643c1d545efe67edc1298139ff48863f1024",
+        "author": "LittleDuck-LD",
+        "date": "2024-05-20 01:10:45 +0800",
+        "summary": "应急删除",
+        "description": ""
+    },
+    {
+        "hash": "3a447fc9bdc1b83c6df15216d447fe70ac0a5f14",
+        "author": "LittleDuck-LD",
+        "date": "2024-05-20 01:07:41 +0800",
+        "summary": "sorts",
+        "description": ""
+    },
+    {
+        "hash": "da352dbd4c034f5b6324950e8604997ca8719da4",
+        "author": "LittleDuck-LD",
+        "date": "2024-05-20 01:04:47 +0800",
+        "summary": "开盒",
+        "description": ""
+    },
+    {
+        "hash": "fd9551e56644001d2a01fbdf8451d9dc6e61c27f",
+        "author": "LittleDuck-LD",
+        "date": "2024-05-19 23:38:04 +0800",
+        "summary": "对战查询Alpha早期版本更新",
+        "description": ""
+    },
+    {
+        "hash": "4ef90791e3efe95571580499946e0500e64e1d76",
+        "author": "LittleDuck-LD",
+        "date": "2024-05-19 13:05:33 +0800",
+        "summary": "修复头像问题",
+        "description": ""
+    },
+    {
+        "hash": "b68d3fdf1d3cecabeb7b1a9e187422541dce440a",
+        "author": "LittleDuck-LD",
+        "date": "2024-05-18 15:10:05 +0800",
+        "summary": "新sort",
+        "description": ""
+    },
+    {
+        "hash": "a689a6d19ba25684cd8a399039b7572d0e51be50",
+        "author": "LittleDuck-LD",
+        "date": "2024-05-18 11:21:47 +0800",
+        "summary": "切换按钮组，优化手机端",
+        "description": ""
+    },
+    {
+        "hash": "da2dde4cbcbaeaa479d89097b3450cef62f9b994",
+        "author": "LittleDuck-LD",
+        "date": "2024-05-17 23:20:37 +0800",
+        "summary": "优化ui，增加排序",
+        "description": ""
+    },
+    {
+        "hash": "2850beb0038a48165fbed0b8c1d59205d6356ca9",
+        "author": "LittleDuck-LD",
+        "date": "2024-05-16 23:19:46 +0800",
+        "summary": "修复国服头像偏移问题",
+        "description": ""
+    },
+    {
+        "hash": "e366e9b2c950250bf59abcbb60881b7439ae9999",
+        "author": "LittleDuck-LD",
+        "date": "2024-05-15 00:26:02 +0800",
+        "summary": "优化加载速度",
+        "description": ""
+    },
+    {
+        "hash": "12ffe73635479c1189c96ddbfeef6a23364f7117",
+        "author": "LittleDuck-LD",
+        "date": "2024-05-13 23:27:21 +0800",
+        "summary": "debug",
+        "description": ""
+    },
+    {
+        "hash": "c9d91a9ba21a062bc5e77c2045962897c711d246",
+        "author": "LittleDuck-LD",
+        "date": "2024-05-13 23:22:00 +0800",
+        "summary": "修复查找",
+        "description": ""
+    },
+    {
+        "hash": "cd9f60dc17b3042e2ea77e46d6339ca9121d9a0b",
+        "author": "LittleDuck-LD",
+        "date": "2024-05-12 22:52:09 +0800",
+        "summary": "给警告加个关闭",
+        "description": ""
+    },
+    {
+        "hash": "9b8d3b170917a9c9a9b04c678a3b8bb8b12d2af1",
+        "author": "LittleDuck-LD",
+        "date": "2024-05-10 00:14:24 +0800",
+        "summary": "优化加载速度，分批加载",
+        "description": ""
+    },
+    {
+        "hash": "1fa89311134d1423ba2e9ded1452eca159ff9021",
+        "author": "LittleDuck-LD",
+        "date": "2024-05-10 00:07:10 +0800",
+        "summary": "经验等级+rank数据",
+        "description": ""
+    },
+    {
+        "hash": "e132f94bfa70406387a758f7fe910ecb808d85e4",
+        "author": "LittleDuck-LD",
+        "date": "2024-05-09 06:58:13 +0800",
+        "summary": "修bug",
+        "description": ""
+    },
+    {
+        "hash": "bf1b2bc1bb11539e138cfc2a15bbd736c76194dc",
+        "author": "LittleDuck-LD",
+        "date": "2024-05-09 00:14:29 +0800",
+        "summary": "段位",
+        "description": ""
+    },
+    {
+        "hash": "22c78bcd7fd3ccf8bfd039898f527c4914fb5223",
+        "author": "LittleDuck-LD",
+        "date": "2024-05-08 23:34:03 +0800",
+        "summary": "迷你更新",
+        "description": ""
+    },
+    {
+        "hash": "a25da8e5bd2d047019941b94362f80e5f0bb2210",
+        "author": "LittleDuck-LD",
+        "date": "2024-05-07 23:45:47 +0800",
+        "summary": "大更新",
+        "description": ""
+    },
+    {
+        "hash": "9814de20a8d9547cb5a574749cde601147cbc60a",
+        "author": "LittleDuck-LD",
+        "date": "2024-05-07 23:13:01 +0800",
+        "summary": "优化算法",
+        "description": ""
+    },
+    {
+        "hash": "f7d95e5a631d67318e79c4aacfb22cf1f9396be6",
+        "author": "LittleDuck-LD",
+        "date": "2024-05-07 00:29:43 +0800",
+        "summary": "BigInt",
+        "description": ""
+    },
+    {
+        "hash": "23bf37b3a58df72b1e230ff067122fb865bf7b44",
+        "author": "LittleDuck-LD",
+        "date": "2024-05-07 00:27:52 +0800",
+        "summary": "加项目",
+        "description": ""
+    },
+    {
+        "hash": "bb9d426d04cb5663ba27e9e026b5f3662f8825e9",
+        "author": "LittleDuck-LD",
+        "date": "2024-05-07 00:09:47 +0800",
+        "summary": "英雄名字优化",
+        "description": ""
+    },
+    {
+        "hash": "dad302d0169cc2286ca55497f4aded67449f7df5",
+        "author": "LittleDuck-LD",
+        "date": "2024-05-05 23:54:26 +0800",
+        "summary": "加信息",
+        "description": ""
+    },
+    {
+        "hash": "1725e4e643f1dd276f4086d883b8f9727e9d02c3",
+        "author": "LittleDuck-LD",
+        "date": "2024-05-05 19:08:35 +0800",
+        "summary": "大更新",
+        "description": ""
+    },
+    {
+        "hash": "8e1785283fae809cf7f75af0c16a5b9f0da68187",
+        "author": "LittleDuck-LD",
+        "date": "2024-05-05 18:08:02 +0800",
+        "summary": "优化左侧状态栏，拒绝屎山",
+        "description": "优化左侧状态栏，拒绝屎山\n"
+    },
+    {
+        "hash": "6b749683914c6a18239b18529286dae7c57a2925",
+        "author": "LittleDuck-LD",
+        "date": "2024-05-05 17:02:05 +0800",
+        "summary": "切换wsapi至httpapi",
+        "description": "切换wsapi至httpapi\n"
+    },
+    {
+        "hash": "811e2a8aef0ca65abc254e14733d441324f9d909",
+        "author": "LittleDuck-LD",
+        "date": "2024-05-03 14:46:53 +0800",
+        "summary": "Merge branch 'main' of https://github.com/LittleDuck-LD/EmTools",
+        "description": ""
+    },
+    {
+        "hash": "2da1a91d10ac0ccef8df955f37de78b136a7a9aa",
+        "author": "DGHH-Skywalker",
+        "date": "2024-04-27 21:23:29 +0800",
+        "summary": "完善英雄卡片但是写了一坨打分我nm还得赶作业服了",
+        "description": ""
+    },
+    {
+        "hash": "d3910d3758cb24e8ad9dbf59491d69577b618a68",
+        "author": "LittleDuck-LD",
+        "date": "2024-04-25 00:06:44 +0800",
+        "summary": "Update aboutview.vue",
+        "description": ""
+    },
+    {
+        "hash": "4c89da61c943ea4f7afd7836880d1934f245b8de",
+        "author": "LittleDuck-LD",
+        "date": "2024-04-25 00:04:53 +0800",
+        "summary": "Update aboutview.vue",
+        "description": ""
+    },
+    {
+        "hash": "bebb06bf92df77b937413965b0610479f0e2c9c2",
+        "author": "LittleDuck-LD",
+        "date": "2024-04-25 00:04:43 +0800",
+        "summary": "Update aboutview.vue",
+        "description": ""
+    },
+    {
+        "hash": "ea20618961ccfb3b326e062653ef71291c6cd7cd",
+        "author": "LittleDuck-LD",
+        "date": "2024-04-25 00:03:24 +0800",
+        "summary": "特别感谢",
+        "description": ""
+    },
+    {
+        "hash": "4a5fd0d5f0b398a720321e29985bd4f8f2dc6205",
+        "author": "LittleDuck-LD",
+        "date": "2024-04-23 00:31:24 +0800",
+        "summary": "Update jsonview.vue",
+        "description": ""
+    },
+    {
+        "hash": "ddaaca9a41c9410ef243f8caf1500d423a37d069",
+        "author": "LittleDuck-LD",
+        "date": "2024-04-23 00:23:05 +0800",
+        "summary": "Update jsonview.vue",
+        "description": ""
+    },
+    {
+        "hash": "890c3c39a6d1cbc3d5977f08a224fe303d81fdc8",
+        "author": "LittleDuck-LD",
+        "date": "2024-04-23 00:22:05 +0800",
+        "summary": "JSON查看",
+        "description": ""
+    },
+    {
+        "hash": "044c1688062f4c6ba3784de72711ef7bf47080c0",
+        "author": "DGHH-Skywalker",
+        "date": "2024-04-21 13:40:46 +0800",
+        "summary": "修复一些错误",
+        "description": ""
+    },
+    {
+        "hash": "fb46fa184fe29e196af9d4e3ab6813004bb84796",
+        "author": "DGHH-Skywalker",
+        "date": "2024-04-21 13:34:22 +0800",
+        "summary": "修复一些可能导致报错的代码",
+        "description": ""
+    },
+    {
+        "hash": "cd182f02691391515ee7db7835b952680681fcc1",
+        "author": "EmberHeart",
+        "date": "2024-04-21 12:54:33 +0800",
+        "summary": "Delete node_modules directory",
+        "description": ""
+    },
+    {
+        "hash": "098c6e89198d6a237ce1a1b48c87ca96ca0ed66f",
+        "author": "EmberHeart",
+        "date": "2024-04-21 12:54:11 +0800",
+        "summary": "Delete dist directory",
+        "description": ""
+    },
+    {
+        "hash": "3db664980c4ab1e286324cc3ccd64c682403a67e",
+        "author": "EmberHeart",
+        "date": "2024-04-21 12:53:46 +0800",
+        "summary": "Delete bak-4-5 directory",
+        "description": ""
+    },
+    {
+        "hash": "570b7c7fc877b11bd7c0f15511591ef6b14c6f91",
+        "author": "LittleDuck-LD",
+        "date": "2024-04-20 11:23:19 +0800",
+        "summary": "战队查询上线！",
+        "description": "我爱AllianceDataMessage\n"
+    },
+    {
+        "hash": "1f080483b373467e366aee6713ae43833dd77dfa",
+        "author": "LittleDuck-LD",
+        "date": "2024-04-15 23:38:39 +0800",
+        "summary": "写了注释，优化跳转",
+        "description": ""
+    },
+    {
+        "hash": "3fcf84376f9fc0ab9078ff6a2f6b25a399986295",
+        "author": "LittleDuck-LD",
+        "date": "2024-04-15 22:24:28 +0800",
+        "summary": "Update updatelog.vue",
+        "description": ""
+    },
+    {
+        "hash": "c9ce5cd15568a97addb5ac7a2833dae1fcef1d7c",
+        "author": "LittleDuck-LD",
+        "date": "2024-04-15 22:23:47 +0800",
+        "summary": "优化功能简介，删除透视按钮",
+        "description": ""
+    },
+    {
+        "hash": "d467366994be7ef5b6b9e4e0cf6aaedd472053c6",
+        "author": "LittleDuck-LD",
+        "date": "2024-04-15 22:21:16 +0800",
+        "summary": "优化标签检测",
+        "description": ""
+    },
+    {
+        "hash": "696a837e1079555afda99f397b534aea29f37770",
+        "author": "LittleDuck-LD",
+        "date": "2024-04-14 19:25:25 +0800",
+        "summary": "readme观战更新",
+        "description": ""
+    },
+    {
+        "hash": "021b35fdabed6b10b89717cd6fd93e97faf113dc",
+        "author": "LittleDuck-LD",
+        "date": "2024-04-14 18:52:20 +0800",
+        "summary": "访问密码功能",
+        "description": ""
+    },
+    {
+        "hash": "40ce0aa616da1777e9ce09f54c2d63f9124faae5",
+        "author": "LittleDuck-LD",
+        "date": "2024-04-14 16:02:46 +0800",
+        "summary": "修复查询",
+        "description": ""
+    },
+    {
+        "hash": "e1a11413c0a5fa461b1b69d7079824bf7f426c44",
+        "author": "LittleDuck-LD",
+        "date": "2024-04-14 12:06:26 +0800",
+        "summary": "禁用观战",
+        "description": ""
+    },
+    {
+        "hash": "e19e7f68b4660b44276a787798d4f7e454e489e0",
+        "author": "LittleDuck-LD",
+        "date": "2024-04-14 11:40:46 +0800",
+        "summary": "Update index.html",
+        "description": ""
+    },
+    {
+        "hash": "85f2dbaef69b933c839cbb812557fc2df966e7b9",
+        "author": "LittleDuck-LD",
+        "date": "2024-04-14 11:38:29 +0800",
+        "summary": "Update index.html",
+        "description": ""
+    },
+    {
+        "hash": "1f42e0a90cc84a98ad1e2179d1e1dfe533c39609",
+        "author": "LittleDuck-LD",
+        "date": "2024-04-14 11:35:49 +0800",
+        "summary": "Create .gitignore",
+        "description": ""
+    },
+    {
+        "hash": "da5f31eb740a7a97b15a219006f17e5c19ba3c4d",
+        "author": "LittleDuck-LD",
+        "date": "2024-04-14 11:33:19 +0800",
+        "summary": "访问量，伪装观战",
+        "description": ""
+    },
+    {
+        "hash": "fbb017c62911e4f0e8c2ed66e6036b6045a9e9b8",
+        "author": "LittleDuck-LD",
+        "date": "2024-04-14 10:54:13 +0800",
+        "summary": "灯塔",
+        "description": ""
+    },
+    {
+        "hash": "04f3ab37b763a17e04456a98471aa8ab97e88630",
+        "author": "LittleDuck-LD",
+        "date": "2024-04-14 00:15:34 +0800",
+        "summary": "删除灯塔插件（文件）",
+        "description": ""
+    },
+    {
+        "hash": "fac3f9c45d482d276f241e36ea2db1df3b39fee2",
+        "author": "LittleDuck-LD",
+        "date": "2024-04-13 13:08:28 +0800",
+        "summary": "改标题",
+        "description": ""
+    },
+    {
+        "hash": "241e06bbe82976c124f8e7861e56901205536f67",
+        "author": "LittleDuck-LD",
+        "date": "2024-04-13 12:29:03 +0800",
+        "summary": "灯塔",
+        "description": ""
+    },
+    {
+        "hash": "56165496b1081cde5857e73c36fe18e944fa7043",
+        "author": "LittleDuck-LD",
+        "date": "2024-04-13 12:27:07 +0800",
+        "summary": "灯塔",
+        "description": ""
+    },
+    {
+        "hash": "14e1dd3fbc6ee4b59326ea29056bb78aaecabaa4",
+        "author": "LittleDuck-LD",
+        "date": "2024-04-13 12:24:10 +0800",
+        "summary": "灯塔插件",
+        "description": ""
+    },
+    {
+        "hash": "5578743a56170fd6c409c3b527de05f4f915770a",
+        "author": "LittleDuck-LD",
+        "date": "2024-04-13 12:16:26 +0800",
+        "summary": "更新日志",
+        "description": ""
+    },
+    {
+        "hash": "5a936fb71e82f8da38ad93c8c58397ece11efdaa",
+        "author": "LittleDuck-LD",
+        "date": "2024-04-13 12:09:12 +0800",
+        "summary": "标签ws查询更新",
+        "description": ""
+    },
+    {
+        "hash": "a72b23445337bfda1f65a2d12ada1f682156fcf9",
+        "author": "LittleDuck-LD",
+        "date": "2024-04-13 09:06:15 +0800",
+        "summary": "透视隐私设置布尔值改成中文",
+        "description": ""
+    },
+    {
+        "hash": "6aa86419ad8b8ebb59d327523a897e92e24c93ae",
+        "author": "LittleDuck-LD",
+        "date": "2024-04-12 20:05:24 +0800",
+        "summary": "隐私设置",
+        "description": ""
+    },
+    {
+        "hash": "4246988f4a900b5e4b0ea1e914a701e255f56861",
+        "author": "LittleDuck-LD",
+        "date": "2024-04-12 20:01:12 +0800",
+        "summary": "隐私设置更新",
+        "description": ""
+    },
+    {
+        "hash": "35d6b502b99917dcf32f63b0633360f2083f9245",
+        "author": "LittleDuck-LD",
+        "date": "2024-04-12 19:55:06 +0800",
+        "summary": "1.0",
+        "description": ""
+    },
+    {
+        "hash": "9e6559c161a970342e520c0118e68ae9fccaeae2",
+        "author": "EmberHeart",
+        "date": "2024-04-08 22:14:37 +0800",
+        "summary": "V1.0",
+        "description": "第一个版本。"
+    }
+]

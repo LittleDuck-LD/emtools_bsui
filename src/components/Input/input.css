@@ -1,0 +1,76 @@
+.input_bg {
+  border: 2px solid black;
+  border-radius: 8px;
+  background: #fff;
+  width: auto;
+  color: black;
+  outline: none;
+  height: auto;
+  font-size: 1em;
+  transform: skewX(-7deg);
+  box-shadow: inset 0px 0.31em #ffffff30, inset 0px 0.31em #00000030,
+    0px 2px #000;
+  display: flex;
+}
+.input_bg.ex {
+  padding: 0.5em;
+}
+.input_bg .bg {
+  transform: skewX(7deg);
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+  flex-wrap: wrap;
+  position: relative;
+}
+.ex_bg {
+  display: flex;
+}
+
+.input_bg ._holder {
+  border-right: 2px solid black;
+  padding: 0.5em;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input_bg ._holder ._content {
+  transform: skewX(7deg);
+}
+.input_bg .content_bg {
+  transform: skewX(7deg);
+  margin-left: 10px;
+  flex: 1;
+  display: flex;
+}
+.top.bg {
+  flex-direction: column;
+}
+.left.bg {
+  flex-direction: row;
+}
+.left.bg .title {
+  margin: 0px 2px !important;
+}
+.input_bg .bg .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2px;
+}
+.input_bg input {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: inherit;
+  display: inline-block;
+  background: transparent;
+  color: inherit;
+  flex: 1;
+  /* min-width: 150px; */
+}
+
+.input_bg:active {
+  transform: scale(0.98) skewX(-7deg);
+}

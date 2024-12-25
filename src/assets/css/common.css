@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "ClashLilata";
+  src: url("/fonts/ClashLilata.ttf");
+}
+
+* {
+  font-family: "ClashLilata";
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 12px;
+}
+
+@media screen and (min-width: 1200px) {
+  html {
+    font-size: 13px;
+  }
+}
+
+html,
+body,
+#app {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.background,
+.mask {
+  background: linear-gradient(#044fbf, #0274ff, #0274ff, #044fbf);
+  width: 100%;
+  height: 100%;
+  z-index: -1000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  /* padding: 10px; */
+}
+
+.mask {
+  background: url('../image/bs.png') repeat 0% 0%;
+  opacity: 0.09;
+  animation: mymove 40s infinite linear;
+}
+
+@media screen and (max-width:750px) {
+  .mask {
+    background-size: 40%;
+  }
+}
+
+@keyframes mymove {
+  from {
+    background-position-y: 0px, 0%;
+  }
+
+  to {
+    background-position-y: -1000px, 0%;
+  }
+}
+

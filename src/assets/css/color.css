@@ -1,0 +1,92 @@
+@keyframes bgp {
+    0% {
+        background-position: 80% 0;
+    }
+
+    100% {
+        background-position: -100% 0;
+    }
+
+
+}
+
+
+.colorful {
+    background-image: linear-gradient(to right, rgb(255, 250, 188), rgb(255, 209, 46), rgb(242, 153, 40), rgb(255, 209, 46), rgb(255, 250, 188), rgb(255, 209, 46), rgb(242, 153, 40), rgb(255, 209, 46), rgb(255, 250, 188)) !important;
+    animation: bgp 10s infinite linear;
+    background-size: 500% !important;
+}
+
+.colorful_text.text::before {
+    background-image: linear-gradient(to right, rgb(255, 250, 188), rgb(255, 209, 46), rgb(242, 153, 40), rgb(255, 209, 46), rgb(255, 250, 188), rgb(255, 209, 46), rgb(242, 153, 40), rgb(255, 209, 46), rgb(255, 250, 188)) !important;
+    animation: bgp 10s infinite linear;
+    background-size: 500% !important;
+}
+
+.pro_color {
+    background-image: linear-gradient(to right, rgb(249, 230, 255), rgb(226, 163, 255), rgb(255, 254, 152), rgb(194, 243, 242), rgb(249, 230, 255), rgb(226, 163, 255), rgb(255, 254, 152), rgb(194, 243, 242), rgb(249, 230, 255)) !important;
+    animation: bgp 10s infinite linear;
+    background-size: 500% !important;
+}
+
+.pro_color_text.text::before {
+    background-image: linear-gradient(to right, rgb(249, 230, 255), rgb(226, 163, 255), rgb(255, 254, 152), rgb(194, 243, 242), rgb(249, 230, 255), rgb(226, 163, 255), rgb(255, 254, 152), rgb(194, 243, 242), rgb(249, 230, 255)) !important;
+    animation: bgp 10s infinite linear;
+    background-size: 500% !important;
+}
+
+.color_1.text::before {
+    background-image: linear-gradient(to right, rgb(255, 201, 47), rgb(255, 156, 76), rgb(255, 104, 86), rgb(249, 49, 163), rgb(227, 0, 185), rgb(249, 49, 163), rgb(255, 104, 86), rgb(255, 156, 76), rgb(255, 104, 86), rgb(255, 156, 76), rgb(255, 201, 47), rgb(255, 156, 76), rgb(255, 104, 86), rgb(249, 49, 163), rgb(227, 0, 185), rgb(249, 49, 163), rgb(255, 104, 86), rgb(255, 156, 76), rgb(255, 104, 86), rgb(255, 156, 76), rgb(255, 201, 47));
+    animation: bgp 2.5s infinite linear;
+    background-size: 500% !important;
+}
+
+.color_2.text::before {
+    background-image: linear-gradient(to right, rgb(255, 255, 206), rgb(255, 247, 108), rgb(255, 224, 52), rgb(255, 247, 108), rgb(255, 255, 206), rgb(255, 247, 108), rgb(255, 224, 52), rgb(255, 247, 108), rgb(255, 255, 206));
+    animation: bgp 2.5s infinite linear;
+    background-size: 500% !important;
+}
+
+.color_3.text::before {
+    background-image: linear-gradient(to right, rgb(223, 253, 103), rgb(126, 252, 125), rgb(19, 207, 0), rgb(126, 252, 125), rgb(223, 253, 103), rgb(126, 252, 125), rgb(19, 207, 0), rgb(126, 252, 125), rgb(223, 253, 103));
+    animation: bgp 2.5s infinite linear;
+    background-size: 500% !important;
+}
+
+.red {
+    background-color: #E33B50 !important;
+
+}
+
+.dp_red {
+    background-color: #C52D63 !important;
+}
+
+.pink {
+    background-color: #D65CD3 !important;
+}
+
+.purple {
+    background-color: #9A3DF3 !important;
+}
+
+.green {
+    background-color: #81D621 !important;
+}
+
+.deep {
+    background-color: #8CA0E0 !important;
+}
+
+.orange {
+    background-color: #F78927 !important;
+}
+
+.lt_orange {
+    background-color: #FFC207 !important;
+
+}
+
+.dp_orange {
+    background-color: #F8A563 !important;
+}
