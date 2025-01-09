@@ -15,7 +15,7 @@ const router = createRouter({
 
       ]
     },
-    { path: '/player/:tag', name: 'search_query', meta: { title: '玩家信息查询', isNeedALL: true }, component: () => import('@/views/Search/query/player.vue') },
+    { path: '/player/:tag', name: 'search_query', meta: { title: '玩家信息查询', isNeedALL: true, forceReload: true }, component: () => import('@/views/Search/query/player.vue') },
     { path: '/debug', component: () => import('@/views/Search/ui/playerPanel.vue'), meta: { isNeedALL: true } },
     {
       path: '/404',

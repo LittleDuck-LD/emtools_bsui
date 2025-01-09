@@ -16,7 +16,7 @@
                     <Button class="home_btn" @click="go_home"><img class="image" src="./assets/image/home.png"></Button>
                 </div>
 
-                <RouterView class="__app_content" :key="$route.path" />
+                <RouterView class="__app_content" :key="$route.path + Math.random()" />
             </div>
         </div>
     </div>
@@ -37,6 +37,7 @@ const is_pc = ref(false);
 const main_root = '/';
 const pc_root = '/about';
 const fix_margin = ref(true);
+var reloaded = false;
 const url_complate = () => is_pc.value ? pc_root : main_root;
 function check_pc_or_phone(path) {
     is_pc.value = window.innerWidth > min_width;
