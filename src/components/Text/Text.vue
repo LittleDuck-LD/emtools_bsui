@@ -23,6 +23,14 @@ const check_emoji = (j) => {
     return p.match(emoji_exp) != null;
   };
   if (try_match(j)) _tmp_class.value += " emoji_text";
+  // // ios 兼容
+  // try {
+  //   if (_tmp_class.value.includes('ios_text')) return;
+  //   let isIOS = /Safari/.test(navigator.userAgent) && !/Chrome/.test(navigator.userAgent);
+  //   if (isIOS) _tmp_class.value += ' ios_text';
+  //   _tmp_class.value = _tmp_class.value.replaceAll('emoji_text', '');
+  // } catch { }
+  // // end ios 兼容
 };
 const filter = (e) => {
   check_emoji(e);
@@ -94,6 +102,16 @@ onMounted(() => {
   filter: drop-shadow(0 0.05em 0 #000);
 }
 
+.ios_text.text {
+  -webkit-text-stroke: 2px #000;
+  color: white;
+  filter: none;
+}
+
+.ios_text.text::before {
+  -webkit-text-fill-color: #fff;
+}
+
 /* .text,
 .text::before {
   line-height: 1.2em;
@@ -107,5 +125,6 @@ onMounted(() => {
   white-space: pre-line;
   word-break: break-all;
   font-size: inherit;
+  position: relative;
 }
 </style>
