@@ -6,3 +6,7 @@
   from = "/*"
   to = "/index.html"
   status = 200
+[[redirects]]
+  from = "/assets/*"
+  to = "/assets/*"
+  status = 200
