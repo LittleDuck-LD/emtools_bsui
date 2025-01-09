@@ -24,7 +24,7 @@
 }
 
 .base:active {
-    transform: skewX(-7deg) scale(0.9);
+    transform: skewX(-7deg) scale(0.95);
 }
 
 .base>* {

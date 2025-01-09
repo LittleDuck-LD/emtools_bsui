@@ -7,20 +7,22 @@
   width: 100%;
   height: 100%;
   pointer-events: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 4em;
 }
 
 .float_text {
-  width: 100%;
-  width: 100%;
   display: block;
   font-size: 1.5em;
-  text-align: center;
   transition: height 0.2s ease-in-out, margin 0.2s ease-in-out;
   pointer-events: none;
 }
 
 .t.text {
   filter: drop-shadow(0 3px 0 #000) drop-shadow(0px 3px 10px #000);
+  display: inline-block;
   white-space: pre-line;
   margin: 1em;
 }

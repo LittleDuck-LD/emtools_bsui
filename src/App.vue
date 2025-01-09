@@ -4,7 +4,7 @@
             <div class="mask"></div>
         </div>
         <div :class="{ app_pc: is_pc, app_div: true }">
-            <div :class="{ app_pc_item: true, app_home_content: true }" v-if="is_pc">
+            <div :class="{ app_pc_item: true, app_home_content: true }" v-if="is_pc && !need_all">
                 <Home v-if="is_pc"></Home>
             </div>
             <div :class="{ app_content: true, app_pc_item: is_pc }">
@@ -16,7 +16,7 @@
                     <Button class="home_btn" @click="go_home"><img class="image" src="./assets/image/home.png"></Button>
                 </div>
 
-                <RouterView :class="{ app_content_body: fix_margin, __app_content: true }" />
+                <RouterView class="__app_content" :key="$route.path" />
             </div>
         </div>
     </div>
@@ -30,6 +30,7 @@ import { watch, ref, onMounted, computed, watchEffect } from 'vue';
 import { useLink, useRouter } from 'vue-router';
 const router = useRouter();
 const isshow_bar = ref(false);
+const need_all = ref(false);
 const route_name = ref('');
 const min_width = 700;
 const is_pc = ref(false);
@@ -67,6 +68,9 @@ watch(() => router.currentRoute.value, (a) => {
     isshow_bar.value = res;
     if (res)
         route_name.value = a.meta.title;
+    if (a.meta.isNeedALL) {
+        need_all.value = true;
+    } else need_all.value = false;
     re_check(a.path);
     check_pc_or_phone(a.path);
 
@@ -165,7 +169,8 @@ watch(() => router.currentRoute.value, (a) => {
 .app_content_body {
     margin: 2em;
 }
-.__app_content{
+
+.__app_content {
     height: 100%;
     overflow-y: auto;
     overflow-x: hidden;

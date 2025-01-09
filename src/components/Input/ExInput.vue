@@ -7,14 +7,17 @@
         </div>
       </div>
       <div class="content_bg">
-        <input :placeholder="placeholder" v-bind="$attrs" class="input" />
+        <input :placeholder="placeholder" v-bind="$attrs" ref="sb" class="input" />
       </div>
     </div>
   </div>
 </template>
 
 <script setup>
+import { useTemplateRef } from "vue";
 import Text from "../Text/Text.vue";
+var input = useTemplateRef('sb');
+defineExpose({ input });
 defineProps(["title", "placeholder", "holder"]);
 </script>
 <style scoped>

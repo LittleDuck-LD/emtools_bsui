@@ -1,7 +1,7 @@
 export async function GetJson(Link) {
     const response = await fetch(Link);
     if (!response.ok) {
-        console.error("无法获取json");
+        return Promise.reject();
     }
     return await response.json();
 }
@@ -32,7 +32,10 @@ export function ConvertPlayerTagToLong(tag) {
     }
     return [Number(id % 256n), Number((id - 256n) >> 8n) + 1];
 }
-
+export function isValidTag(tag) {
+    const validChars = "0289PYLQGRJCUV";
+    return [...tag].every((char) => validChars.includes(char));
+}
 export function IsTagCanUse(Tag) {
     Long = ConvertPlayerTagToLong(Tag);
     LongHigh = Long[0];
@@ -42,6 +45,16 @@ export function IsTagCanUse(Tag) {
         CanUse = true;
     }
     return CanUse;
+}
+export function MatchPlayerId(tag) {
+    tag = tag.toUpperCase();
+    let tagvalidCharacters = /^[0289PYLQGRJCUV]+$/;
+    let match = tagvalidCharacters.test(tag);
+    if (!match) {
+        let invalidChars = tag.match(/[^0289PYLQGRJCUV ]/g) || []; // 匹配所有不合法字符，如果没有匹配到则为空数组
+        return { check: false, array: invalidChars };
+    }
+    return { check: true };
 }
 export function NoHTML(Text) {
     return Text.replaceAll("<", "&lt;").replaceAll(">", "&gt;")

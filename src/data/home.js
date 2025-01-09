@@ -12,7 +12,7 @@ export default [
         title: '对战查询',
         sub_title: '查询对战信息！',
         desc: '看看队友/敌人带了什么星徽/妙具',
-        url: '/battlesearch',
+        url: '/display',
         color: 'pink',
         ico: 'brawl'
     },
@@ -43,7 +43,7 @@ export default [
         title: '排行榜',
         sub_title: '查询国服排行榜！',
         desc: '有点鸡肋的功能',
-        url: '/leaderboard',
+        url: '/rank',
         color: 'dp_orange',
         ico: 'rank'
     },
@@ -51,7 +51,7 @@ export default [
         title: '战队查询',
         sub_title: '查询国服战队信息！',
         desc: '透视战队在线人数，超级猪猪',
-        url: '/clubsearch',
+        url: '/club',
         color: 'orange',
         ico: 'search'
     },

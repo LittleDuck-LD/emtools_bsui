@@ -1,7 +1,7 @@
 <template>
     <div class="music">
         <div class="music_list">
-            <Button v-for="music in music_list" @click="SetTheme(music.id)">{{ music.title
+            <Button v-for="(music, index) in music_list" @click="SetTheme(music.id)">{{ music.title
                 }}</Button>
         </div>
         <div class="music_panel">
@@ -214,7 +214,10 @@ onMounted(async () => {
 
     console.log(music_list);
     watchEffect(() => {
-        PlayingAudio.value.volume = music_obj.PlayInfo.volume;
+        try {
+            PlayingAudio.value.volume = music_obj.PlayInfo.volume;
+        }
+        catch { }
     });
 });
 
@@ -243,7 +246,8 @@ onMounted(async () => {
     flex-direction: column;
     /* border: solid 5px rgba(0, 0, 0, 0.6);
     background: rgba(0, 0, 0, 0.4); */
-    border-radius: 5px;
+    border-radius: 10px;
+    border: solid 4px #0000005e
 }
 
 .music_panel .controls {

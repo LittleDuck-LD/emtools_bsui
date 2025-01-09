@@ -92,11 +92,13 @@ console.log(route);
     flex-direction: column;
     margin-top: 2em;
     flex: 1 1 auto;
+    align-items: center;
 }
 
 .sp_thanks .item {
     font-size: 1.5em;
     margin-left: 2em;
+    margin-top: 5px;
 }
 
 button {

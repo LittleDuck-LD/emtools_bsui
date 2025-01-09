@@ -1,16 +1,16 @@
 .input_bg {
-  border: 2px solid black;
+  border: 0.1em solid black;
   border-radius: 8px;
   background: #fff;
   width: auto;
   color: black;
   outline: none;
   height: auto;
-  font-size: 1em;
+  font-size: 1.5em;
   transform: skewX(-7deg);
   box-shadow: inset 0px 0.31em #ffffff30, inset 0px 0.31em #00000030,
     0px 2px #000;
-  display: flex;
+  display: inline-flex;
 }
 .input_bg.ex {
   padding: 0.5em;
@@ -24,11 +24,12 @@
   position: relative;
 }
 .ex_bg {
-  display: flex;
+  display: inline-flex;
+  flex: 1;
 }
 
 .input_bg ._holder {
-  border-right: 2px solid black;
+  border-right: 0.1em solid black;
   padding: 0.5em;
   display: inline-flex;
   justify-content: center;

@@ -67,6 +67,9 @@ watch(
 );
 init();
 </script>
+<style scoped>
+@import url('../../assets/css/cup_progress.css');
+</style>
 <template>
   <span class="cup_container">
     <span class="badge">

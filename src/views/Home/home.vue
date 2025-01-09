@@ -18,7 +18,7 @@ import GroupCard from '@/components/Card/GroupCard.vue';
 import home from '@/data/home';
 import Text from '@/components/Text/Text.vue';
 import { useRoute, useRouter } from 'vue-router';
-var home_data = home.map(e => ({ ...e, ico: `../../assets/ico/${e.ico}.png` }));
+var home_data = home.map(e => ({ ...e, ico: e.ico.startsWith('http') ? e.ico : `/assets/ico/${e.ico}.png` }));
 const router = useRouter();
 </script>
 <style scoped>

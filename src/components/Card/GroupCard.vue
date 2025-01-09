@@ -5,7 +5,7 @@
         </div>
         <div :class="{ group: 'true', [color == null ? 'green' : color]: true }">
 
-            <img class="ico" :src="a(src)">
+            <img class="ico" :src="(src)">
             <div class="group_sub">
                 <Text class="title">{{ title }}</Text>
                 <Text class="sub_title">{{ sub_title }}</Text>
@@ -20,6 +20,8 @@
 import Text from '../Text/Text.vue';
 defineProps(['src', 'title', 'sub_title', 'desc', 'color']);
 function a(b) {
+    if (b.startsWith('http'))
+        return b;
     return new URL(b, import.meta.url).href;
 }
 </script>

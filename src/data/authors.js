@@ -5,6 +5,9 @@ export default {
         { name: 'UbisoComes', work: '前端/新UI', head: 'https://q.qlogo.cn/g?b=qq&s=640&nk=403376273' }
     ],
     sp_thanks: [
+        '金日成',
+        '金正日',
+        '金正恩',
         '大少爷30引', 'Mr_Chara_CN',
         'Momoi', '阿七Lion',
         '清雨', '亮点',
