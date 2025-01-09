@@ -18,7 +18,7 @@ import UpdateCard from './updateCard.vue';
 import { onMounted, ref } from 'vue';
 import api from '@/data/api';
 var git_list = ref([]);
-const get_git_ico = (e) => api.git_author_pictrues.find(j => j.name == e)?.ico ?? '../../assets/image/user.png';
+const get_git_ico = (e) => api.git_author_pictrues.find(j => j.name == e)?.ico ?? '/assets/image/user.png';
 onMounted(async () => {
     // git_list.value = (await GetJson(api.git_url)).filter((e, i) => i <= 59);
     git_list.value = (await GetJson(api.git_url));
