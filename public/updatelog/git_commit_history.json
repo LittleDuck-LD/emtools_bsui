@@ -1,5 +1,12 @@
 [
     {
+        "hash": "3683fe6cfd5d9e51af46fddda05fda4515b007e3",
+        "author": "bedphp",
+        "date": "2025-02-05 23:58:10 +0800",
+        "summary": "完善新UI以及玩家查询/战队查询功能，排行榜待近期上线",
+        "description": ""
+    },
+    {
         "hash": "dce56fc61bffc1362663b8da49ea212f04026184",
         "author": "bedphp",
         "date": "2025-01-09 21:22:18 +0800",
