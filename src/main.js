@@ -13,6 +13,13 @@ import '@/assets/css/common.css';
 import '@/assets/css/color.css';
 const app = createApp(App);
 app.provide('popup', popup);
+app.provide('get_pv', () => new Promise((ok, fuck) => {
+    let out = setTimeout(() => fuck(false), 2 * 1000);
+    bszCaller.fetch("//busuanzi.ibruce.info/busuanzi?jsonpCallback=BusuanziCallback", (a) => {
+        ok(a);
+        clearTimeout(out);
+    });
+}))
 app.use(router);
 app.use(VueVirtualScroller) // use 它
 app.directive('focus', {

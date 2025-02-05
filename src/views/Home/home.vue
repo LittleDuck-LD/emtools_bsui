@@ -1,9 +1,18 @@
 <template>
     <div class="body">
         <div class="tool_head">
-            <Text class="title pro_color_text">EmTools</Text>
+            <div class="header">
+                <img class="_ico" src="/b_assets/SiteIcon.png">
+                <Text class="title pro_color_text">BrawlBox v2</Text>
+                <img class="_ico" src="/b_assets/SiteIcon.png">
+            </div>
             <br>
             <Text class="sub_title colorful_text">一个荒野乱斗国服的工具箱</Text>
+            <div class="back_classic">
+                <Text>返回旧版→：</Text>
+                <a href="//classic.stats.brawlstars.top"><Text color="#81D621">classic.stats.brawlstars.top</Text>
+                </a>
+            </div>
         </div>
         <div class="group_list">
             <GroupCard v-for="i in home_data" :title="i.title" class="item" @click="() => router.push(i.url)"
@@ -23,7 +32,7 @@ const router = useRouter();
 </script>
 <style scoped>
 .body {
-    padding: 3em;
+    padding: 2em;
     width: 100%;
     margin: auto auto;
 }
@@ -35,8 +44,24 @@ const router = useRouter();
     align-items: center;
 }
 
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
 .title {
     font-size: 4em;
+}
+
+.back_classic {
+    font-size: 1.5em;
+}
+
+._ico {
+    max-width: 50px;
+    object-fit: contain;
 }
 
 .sub_title {

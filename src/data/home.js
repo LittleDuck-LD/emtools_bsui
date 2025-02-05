@@ -4,9 +4,41 @@ export default [
         title: '玩家信息查询',
         sub_title: '查询对战信息！',
         desc: '可以透视隐私设置！',
-        url: '/search',
+        url: '/search/player',
         color: 'pro_color',
         ico: 'player_xray'
+    },
+    {
+        title: '战队查询',
+        sub_title: '查询国服战队信息！',
+        desc: '透视战队在线人数，超级猪猪',
+        url: '/search/club',
+        color: 'orange',
+        ico: 'search'
+    },
+    {
+        title: '排行榜',
+        sub_title: '查询国服排行榜！',
+        desc: '有点鸡肋的功能',
+        url: '/rank',
+        color: 'dp_orange',
+        ico: 'rank'
+    },
+
+    {
+        title: '网站新闻',
+        sub_title: '查看网站信息',
+        desc: '网站公告及维护信息',
+        url: '/brawltv',
+        color: 'deep',
+        ico: 'tv'
+    },
+    {
+        title: '网站浏览量',
+        sub_title: '网站日活信息',
+        desc: '网站日活信息',
+        url: '/pv',
+        ico: 'room'
     },
     {
         title: '对战查询',
@@ -17,43 +49,12 @@ export default [
         ico: 'brawl'
     },
     {
-        title: '乱斗TV',
-        sub_title: '查看乱斗TV频道与对战数据！',
-        desc: '乱斗TV',
-        url: '/brawltv',
-        color: 'deep',
-        ico: 'tv'
-    },
-    {
         title: '音乐播放',
         sub_title: '荒野乱斗历代音乐大全',
         desc: '听歌',
         url: '/themes',
         color: 'purple',
         ico: 'music'
-    },
-    {
-        title: '房间大厅',
-        sub_title: '国服房间大厅',
-        desc: '友谊战规则可以放这',
-        url: '/roomlobby',
-        ico: 'room'
-    },
-    {
-        title: '排行榜',
-        sub_title: '查询国服排行榜！',
-        desc: '有点鸡肋的功能',
-        url: '/rank',
-        color: 'dp_orange',
-        ico: 'rank'
-    },
-    {
-        title: '战队查询',
-        sub_title: '查询国服战队信息！',
-        desc: '透视战队在线人数，超级猪猪',
-        url: '/club',
-        color: 'orange',
-        ico: 'search'
     },
     {
         title: '快速启动',

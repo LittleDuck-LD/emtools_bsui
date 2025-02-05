@@ -32,14 +32,16 @@ defineProps(['ico', 'nick', 'pushtime', 'hash', 'info']);
     border: solid 3px black;
     border-radius: 10px;
     padding: 10px;
-    background: rgb(45 45 41 / 60%);
+    background: #756673d8;
+    border: solid 3px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 5px 0 0 rgba(0, 0, 0, 0.5);
 }
 
 .update_card hr {
     height: 3px;
     width: 100%;
     outline: none;
-    background: black;
+    background: rgba(0, 0, 0, 0.5);
     border: none;
     border-radius: 10px;
 }
@@ -80,5 +82,10 @@ defineProps(['ico', 'nick', 'pushtime', 'hash', 'info']);
 .update_info .content {
     margin: 5px;
     flex: 1;
+}
+
+.text,
+.text::before {
+    word-break: break-all;
 }
 </style>

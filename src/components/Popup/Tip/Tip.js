@@ -63,7 +63,7 @@ function removeLast() {
   if (last_div) {
     try {
       document.body.removeChild(last_div);
-    } catch {}
+    } catch { }
     last_div = false;
   }
 }
@@ -97,6 +97,7 @@ function Show(content) {
     center: true,
     top_margin: 10,
     padding: 10,
+    top_padding: 50,
   });
   div.firstChild.style.left = x + "px";
   div.firstChild.style.top = y + "px";

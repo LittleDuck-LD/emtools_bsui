@@ -25,6 +25,7 @@ defineProps(['words', 'title', 'callback', 'showkey']);
 
 .list .title {
     font-size: 1.5em;
+    margin: 5px;
 }
 
 .words_list {
@@ -36,7 +37,8 @@ defineProps(['words', 'title', 'callback', 'showkey']);
 .cue_word {
     font-size: 1.3em;
     background: rgb(0 0 0 / 16%);
-    border: solid 2px #0000009a;
+    border: solid 3px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 5px 0 0 rgba(0, 0, 0, 0.5);
     padding: 8px 10px;
     border-radius: 16px;
     margin: 5px;

@@ -14,8 +14,6 @@ defineProps(['level']);
 <style scoped>
 .bg_level {
     position: relative;
-    width: 50px;
-    height: 50px;
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -23,10 +21,8 @@ defineProps(['level']);
 
 .level {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    width: 50px;
+    height: 50px;
 }
 
 .level_text {

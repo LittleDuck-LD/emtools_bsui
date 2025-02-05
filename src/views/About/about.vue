@@ -29,7 +29,8 @@
                 <a href="//www.supercell.com/en/fan-content-policy"><Text
                         color="#81D621">www.supercell.com/en/fan-content-policy</Text>
                 </a>
-                <Text>Copyright © 2024 EmberHeart. All rights reserved. <br>版权所有© 2024 EmberHeart</Text>
+                <Text>Copyright © {{ new Date().getFullYear() }} EmberHeart. All rights reserved. <br>版权所有© {{ new
+                    Date().getFullYear()}} EmberHeart</Text>
             </div>
         </div>
     </div>

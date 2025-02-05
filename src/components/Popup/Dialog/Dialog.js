@@ -25,18 +25,18 @@ export default class Dialog {
     return this._obj.obj;
   }
   static PopupWindow(content) { }
-  static InputCustom({ title, inputs, callback = () => { } }) {
+  static InputCustom({ title, inputs, callback = () => { }, cannel_text, ok_text }) {
     // inputs = [{title:"输入框标题",sub_title:"输入框提示"}]
-    this.get_obj().Show((e) => h(Input, { title, inputs, callback: callback ? (o, p) => { callback(o, p); e(); } : e }));
+    this.get_obj().Show((e) => h(Input, { title, inputs, callback: callback ? (o, p) => { callback(o, p); e(); } : e, cannel_text, ok_text }));
   }
-  static InputOne({ title = this.default_title, s_title = "", sub_title = "", placeholder = "", callback }) {
-    Dialog.InputCustom({ title, inputs: [{ title: s_title, sub_title: sub_title }], callback });
+  static InputOne({ title = this.default_title, s_title = "", sub_title = "", placeholder = "", callback, cannel_text, ok_text }) {
+    Dialog.InputCustom({ title, inputs: [{ title: s_title, sub_title: sub_title }], callback, cannel_text, ok_text });
   }
-  static Confirm({ text, title = this.default_title, callback = () => { } }) {
-    this.get_obj().Show((e) => h(Confirm, { title, text, callback: callback ? (j) => { callback(j); e(); } : e }));
+  static Confirm({ text, title = this.default_title, callback = () => { }, cannel_text, ok_text }) {
+    this.get_obj().Show((e) => h(Confirm, { title, text, callback: callback ? (j) => { callback(j); e(); } : e, cannel_text, ok_text }));
   }
-  static Info({ text, title = this.default_title, callback = () => { } }) {
-    this.get_obj().Show((e) => h(Info, { title, text, close: callback ? () => { callback(); e(); } : e }));
+  static Info({ text, title = this.default_title, callback = () => { }, close_text }) {
+    this.get_obj().Show((e) => h(Info, { title, text, close: callback ? () => { callback(); e(); } : e, close_text }));
   }
   static CreateObject() {
     let id = randomString(7);

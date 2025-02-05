@@ -7,8 +7,9 @@
             </div>
         </template>
         <template #actions>
-            <Button class="danger" @click="callback(false)">取消</Button>
-            <Button class="primary" @click="callback(true, inputs.map(e => e.text ?? false))">确定</Button>
+            <Button class="danger" @click="callback(false)">{{ cannel_text ?? '取消' }}</Button>
+            <Button class="primary" @click="callback(true, inputs.map(e => e.text ?? false))">{{
+                ok_text??'确定'}}</Button>
         </template>
     </BaseDialog>
 </template>
@@ -18,7 +19,7 @@ import BaseDialog from '../BaseDialog.vue';
 import Button from '@/components/Button/Button.vue';
 import Text from '@/components/Text/Text.vue';
 import Input from '@/components/Input/Input.vue';
-var a = defineProps(['title', 'text', 'inputs', 'callback']);
+var a = defineProps(['title', 'text', 'inputs', 'callback', 'cannel_text', 'ok_text']);
 console.log(a.inputs);
 
 </script>

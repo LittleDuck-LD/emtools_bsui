@@ -30,15 +30,16 @@ function a(b) {
 .group_card {
     display: flex;
     flex-direction: column;
-    transform: skewX(-7deg);
+    transform: skewX(-5deg);
 }
 
 .group_top_desc {
     flex: 0;
-    background: black;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    padding: 5px;
+    background: #1c1a1d45;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding: 8px;
+    border: solid 2px rgba(0,0,0,0.5);
 }
 
 .group_top_desc .desc {
@@ -48,12 +49,13 @@ function a(b) {
 .group {
     flex: 1;
     display: flex;
-    border-radius: 10px;
-    border: solid 3px black;
+    border-radius: 8px;
+    /* border: solid 3px black; */
     border-top-left-radius: 0;
     border-top-right-radius: 0;
     padding: 0.5em;
-    box-shadow: 0px 3px 0px black;
+    /* box-shadow: 0px 3px 0px black; */
+    box-shadow: 0px 5px 0 0 rgba(0, 0, 0, 0.5);
 
 }
 
@@ -66,12 +68,12 @@ function a(b) {
 }
 
 .group_card:active {
-    transform: scale(0.95) skewX(-7deg);
+    transform: scale(0.95) skewX(-5deg);
 }
 
 .group>*,
 .group_top_desc>* {
-    transform: skewX(7deg);
+    transform: skewX(5deg);
 }
 
 .group .ico {

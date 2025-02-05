@@ -1,10 +1,12 @@
 import player_thumbnails_offest from "../global_data/player_thumbnails_offest";
-import player_thumbnails from "../global_data/player_thumbnails";
+import ranked_ranks from "../global_data/ranked_ranks";
+import data_exp from "../global_data/exp";
 import character from "../global_data/character";
 import hero_tr from "../global_data/hero_tr";
 import api from "../api";
 import skins from "../global_data/skins";
-export function GetThumbOffested(thumbID) {
+export function GetThumbOffested(thumbID, head = false) {
+    if (head) thumbID = thumbID - 28000000;
     const offsetCN = player_thumbnails_offest;
     //console.log(offset);
     // 计算总偏移量
@@ -47,3 +49,18 @@ export function GetHeroImages(_item) {
 export function GetHeroSkins(item) {
     return skins[item] || false;
 }
+export function GetExpLevel(exp) {
+    let { index } = Object.entries(data_exp).map((e, i) => ({ index: i, key: e[0], value: e[1] })).find((e) => exp < e.value);
+    let explevel = index;
+    return [explevel, exp - data_exp[index - 1], data_exp[index + 1] - data_exp[index] - 10];
+}
+export function GetRarity(rarity) {
+    return ({ common: 0, rare: 1, super_rare: 2, epic: 3, mega_epic: 4, legendary: 5 })[rarity] || 0;
+}
+export function GetClubIco(ico) {
+    return `https://brawlace.com/assets/images/brawlstars/icons-clubs/${8000000 + ico}.png`;
+}
+export function GetRanked(rank) {
+    return ranked_ranks[rank - 1] || rank;
+}
+export const heroCount = api.heroCount;

@@ -1,7 +1,7 @@
 <template>
     <div class="icon_card">
         <Text class="desc_title" v-if="title">{{ title }}</Text>
-        <img class="ico" :src="ico">
+        <img class="ico" :src="ico" v-if="ico">
         <span class="desc_text">
             <Text v-if="!link">{{ text }}</Text>
             <span class="linked" v-if="link" @click="href"><Text color="#81D621">{{ text }}</Text></span>
