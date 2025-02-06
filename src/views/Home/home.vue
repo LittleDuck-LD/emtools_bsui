@@ -10,7 +10,7 @@
             <Text class="sub_title colorful_text">一个荒野乱斗国服的工具箱</Text>
             <div class="back_classic">
                 <Text>返回旧版→：</Text>
-                <a href="//classic.stats.brawlstars.top"><Text color="#81D621">classic.stats.brawlstars.top</Text>
+                <a href="//classic.brawlstars.top"><Text color="#81D621">classic.brawlstars.top</Text>
                 </a>
             </div>
         </div>

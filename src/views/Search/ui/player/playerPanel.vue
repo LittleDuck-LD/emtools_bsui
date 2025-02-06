@@ -141,6 +141,13 @@ var build_config = [
         ]
     },
     {
+        type: 'm', title: '胜场', obj: [
+            { ico: 'icon_3v3.png', title: '3v3', content: data['data']['profile']['group'] || 0 },
+            { ico: 'icon_solo_showdown.png', title: '单鸡', content: data['data']['profile']['single'] || 0 },
+            { ico: 'icon_duo_showdown.png', title: '双鸡', content: data['data']['profile']['double'] || 0 },
+        ]
+    },
+    {
         type: 'sm', ico: 'club.png', title: '战队', long: true, content: data['club']['joined'] ? data['club']['name'] : '无', link: data['club']['joined'], href: () => goto(`/club/${data['club']['tag']}`)
     },
     { type: 'sm', ico: 'button_info.png', title: '参考信息', content: ((e) => `您是${e.type == 0 ? '国际' : '国'}服 ${e.index} 大区第${e.number}位注册的玩家\n(约合全服第${e.total}位玩家)`)(data['registerInfo']['calc']) },

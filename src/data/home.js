@@ -34,13 +34,6 @@ export default [
         ico: 'tv'
     },
     {
-        title: '网站浏览量',
-        sub_title: '网站日活信息',
-        desc: '网站日活信息',
-        url: '/pv',
-        ico: 'room'
-    },
-    {
         title: '对战查询',
         sub_title: '查询对战信息！',
         desc: '看看队友/敌人带了什么星徽/妙具',
