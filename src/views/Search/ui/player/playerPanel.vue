@@ -83,6 +83,7 @@ import data_pves from "@/data/global_data/pves";
 import { GetHeroImages, GetExpLevel, GetHeroSkins, GetThumbOffested, GetRarity, GetRanked, heroCount } from '@/data/convert/convertResouces';
 import player_titles from '@/data/global_data/player_titles';
 import cv2color from '@/data/convert/convertnamecolor';
+import api from '@/data/api';
 import { inject } from 'vue';
 var props = defineProps(['data', 'tag']);
 var data = props.data || {};
@@ -97,7 +98,7 @@ var hero_data = (data['data']['heros'] || []).map(e => ({
     trophies: e.trophies,
     htrophies: e.highestTrophies,
     mastery: e.masteryPoints,
-    ico: GetHeroImages(e.uid),
+    ico: `${api.api.hero_images_api}/${e.name}_portrait.png`,
     name: e.name,
     halo: e.hasHalo ? GetHeroSkins(e.halo && e.halo[1]) : '无',
     wing: e.hasWing ? GetHeroSkins(e.wing && e.wing[1]) : '无',
