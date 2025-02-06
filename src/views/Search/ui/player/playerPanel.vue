@@ -98,7 +98,7 @@ var hero_data = (data['data']['heros'] || []).map(e => ({
     trophies: e.trophies,
     htrophies: e.highestTrophies,
     mastery: e.masteryPoints,
-    ico: `${api.api.hero_images_api}/${e.name}_portrait.png`,
+    ico: `${api.api.hero_images_api}/${e.uname}_portrait.png`,
     name: e.name,
     halo: e.hasHalo ? GetHeroSkins(e.halo && e.halo[1]) : '无',
     wing: e.hasWing ? GetHeroSkins(e.wing && e.wing[1]) : '无',
