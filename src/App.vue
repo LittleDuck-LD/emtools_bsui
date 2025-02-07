@@ -40,10 +40,6 @@ const main_root = '/';
 const pc_root = '/about';
 const fix_margin = ref(true);
 const isLoading = ref(false);
-var pv_info = {};
-provide('pv_info', () => pv_info);
-const update_pv = () => get_pv().then(e => pv_info = e);
-const get_pv = inject('get_pv');
 const url_complate = () => is_pc.value ? pc_root : main_root;
 function check_pc_or_phone(path) {
     is_pc.value = window.innerWidth > min_width;
@@ -57,18 +53,14 @@ router.beforeEach(async (to, from, next) => {
     next();
     isLoading.value = true;
     route_name.value = '加载中...';
-    console.log('loading...', to, from);
 
 });
 router.afterEach((to, from) => {
     isLoading.value = false;
-    update_pv();
     if (to.meta.forceReload && router.currentRoute.value.path != to.path) window.location.reload();
-    console.log(router.currentRoute.value, to);
     if (to.meta && to.meta.title)
         route_name.value = to.meta.title;
     else route_name.value = '';
-    console.log('loading complate', to, from, get_pv);
 });
 function re_check(path) {
     if (path == main_root || (is_pc.value && path == pc_root))
@@ -84,7 +76,6 @@ function go_home() {
 }
 onMounted(() => {
     window.addEventListener('resize', () => check_pc_or_phone(router.currentRoute.value.path));
-    update_pv();
 });
 
 watch(() => router.currentRoute.value, (a) => {

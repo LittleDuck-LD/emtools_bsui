@@ -83,6 +83,7 @@ import data_pves from "@/data/global_data/pves";
 import { GetHeroImages, GetExpLevel, GetHeroSkins, GetThumbOffested, GetRarity, GetRanked, heroCount } from '@/data/convert/convertResouces';
 import player_titles from '@/data/global_data/player_titles';
 import cv2color from '@/data/convert/convertnamecolor';
+import api from '@/data/api';
 import { inject } from 'vue';
 var props = defineProps(['data', 'tag']);
 var data = props.data || {};
@@ -97,7 +98,7 @@ var hero_data = (data['data']['heros'] || []).map(e => ({
     trophies: e.trophies,
     htrophies: e.highestTrophies,
     mastery: e.masteryPoints,
-    ico: GetHeroImages(e.uid),
+    ico: `${api.api.hero_images_api}/${e.uname}_portrait.png`,
     name: e.name,
     halo: e.hasHalo ? GetHeroSkins(e.halo && e.halo[1]) : '无',
     wing: e.hasWing ? GetHeroSkins(e.wing && e.wing[1]) : '无',
@@ -138,6 +139,13 @@ var build_config = [
             { ico: 'brawlpass.png', title: '金券', content: data['brawlpass'] ? '购买' : '未购买' },
             { ico: `${data['loginPlatform'] == 1 ? 'wx' : 'qq'}.png`, title: '登录平台', content: data['loginPlatform'] == 1 ? '微信区' : 'QQ区' },
 
+        ]
+    },
+    {
+        type: 'm', title: '胜场', obj: [
+            { ico: 'icon_3v3.png', title: '3v3', content: data['data']['profile']['group'] || 0 },
+            { ico: 'icon_solo_showdown.png', title: '单鸡', content: data['data']['profile']['single'] || 0 },
+            { ico: 'icon_duo_showdown.png', title: '双鸡', content: data['data']['profile']['double'] || 0 },
         ]
     },
     {

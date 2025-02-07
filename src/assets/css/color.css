@@ -1,3 +1,7 @@
+:root {
+    color-scheme: only light;
+}
+
 @keyframes bgp {
     0% {
         background-position: 80% 0;

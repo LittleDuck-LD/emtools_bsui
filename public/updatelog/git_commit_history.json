@@ -1,5 +1,26 @@
 [
     {
+        "hash": "9f2191ae2ded185ce8b9f7cb773ba9a67308c17e",
+        "author": "bedphp",
+        "date": "2025-02-06 23:31:26 +0800",
+        "summary": "临时修复",
+        "description": ""
+    },
+    {
+        "hash": "9a330185c80de1f18b085b1e1d9a599d761b1a11",
+        "author": "bedphp",
+        "date": "2025-02-06 00:07:20 +0800",
+        "summary": "fixed title bug",
+        "description": ""
+    },
+    {
+        "hash": "79c050222d402109c5fb210cbf73397959fcf6fb",
+        "author": "bedphp",
+        "date": "2025-02-05 23:59:01 +0800",
+        "summary": "push update",
+        "description": ""
+    },
+    {
         "hash": "3683fe6cfd5d9e51af46fddda05fda4515b007e3",
         "author": "bedphp",
         "date": "2025-02-05 23:58:10 +0800",

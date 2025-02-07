@@ -1502,8 +1502,12 @@ onMounted(() => {
     <component :is="'style'" v-if="color">
       .c_{{ rand_class }}.text::before{
       {{ __emoji_text ? `-webkit-text-fill-color: ${color};` : '' }}
+      position: absolute;
       background: {{ color }};
       background-clip: text;
+      -webkit-background-clip: text;
+      {{ __emoji_text ? '' : '-webkit-text-fill-color: transparent;' }}
+      -webkit-text-stroke: 0;
       }
     </component>
     <slot></slot>
