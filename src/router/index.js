@@ -13,7 +13,6 @@ const router = createRouter({
     { path: '/search/club', name: 'search_club', meta: { title: '战队信息查询' }, component: () => import('@/views/Search/club.vue') },
     { path: '/player/:tag', name: 'search_query_player', meta: { title: '玩家信息查询', isNeedALL: true, forceReload: true }, component: () => import('@/views/Search/query/player.vue') },
     { path: '/club/:tag', name: 'search_query_club', meta: { title: '战队信息查询', isNeedALL: true, forceReload: true }, component: () => import('@/views/Search/query/club.vue') },
-    { path: '/pv', name: 'pv', meta: { title: '网站访问量' }, component: () => import('@/views/PV/pv.vue') },
     { path: '/demo', name: 'demo', component: () => import('@/views/test/demo.vue') },
     {
       path: '/fuck',

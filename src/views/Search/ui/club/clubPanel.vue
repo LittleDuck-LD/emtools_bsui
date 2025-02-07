@@ -78,7 +78,7 @@ var build_config = [
             { type: 'm', ico: 'icon_settings.png', title: '战队类型', content: ({ 1: "自由加入", 2: "需要批准", 3: "不可加入" })[type] || '未知' },
             { type: 'm', ico: 'icon_friends.png', title: '全年龄', content: familyFriendly ? '开' : '关' },
             { type: 'm', ico: 'Megapig.png', title: '超级猪猪胜场', content: megaPigData['wins'] || 0 },
-            { type: 'm', ico: 'Megapig.png', title: '超级猪猪参与人数', content: megaPig },
+            { type: 'm', ico: 'Megapig.png', title: '超级猪猪参与人数', content: megaPigData['playedPlayerCount'] || 0 },
         ]
     }
 ];
