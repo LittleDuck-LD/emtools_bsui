@@ -80,6 +80,10 @@ console.log(route);
     flex-direction: row;
     padding: 1em;
     flex-wrap: wrap;
+    background-image: url('/assets/image/sign.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .sp_thanks .title {

@@ -16,31 +16,31 @@ export default [
         color: 'orange',
         ico: 'search'
     },
-    {
-        title: '排行榜',
-        sub_title: '查询国服排行榜！',
-        desc: '有点鸡肋的功能',
-        url: '/rank',
-        color: 'dp_orange',
-        ico: 'rank'
-    },
+    // {
+    //     title: '排行榜',
+    //     sub_title: '查询国服排行榜！',
+    //     desc: '有点鸡肋的功能',
+    //     url: '/rank',
+    //     color: 'dp_orange',
+    //     ico: 'rank'
+    // },
 
-    {
-        title: '网站新闻',
-        sub_title: '查看网站信息',
-        desc: '网站公告及维护信息',
-        url: '/brawltv',
-        color: 'deep',
-        ico: 'tv'
-    },
-    {
-        title: '对战查询',
-        sub_title: '查询对战信息！',
-        desc: '看看队友/敌人带了什么星徽/妙具',
-        url: '/display',
-        color: 'pink',
-        ico: 'brawl'
-    },
+    // {
+    //     title: '网站新闻',
+    //     sub_title: '查看网站信息',
+    //     desc: '网站公告及维护信息',
+    //     url: '/brawltv',
+    //     color: 'deep',
+    //     ico: 'tv'
+    // },
+    // {
+    //     title: '对战查询',
+    //     sub_title: '查询对战信息！',
+    //     desc: '看看队友/敌人带了什么星徽/妙具',
+    //     url: '/display',
+    //     color: 'pink',
+    //     ico: 'brawl'
+    // },
     {
         title: '音乐播放',
         sub_title: '荒野乱斗历代音乐大全',
@@ -57,14 +57,14 @@ export default [
         color: 'lt_orange',
         ico: 'start'
     },
-    {
-        title: '更新日志',
-        sub_title: '网站更新日志',
-        desc: '能看到网站的提交记录',
-        url: '/update',
-        color: 'red',
-        ico: 'update'
-    },
+    // {
+    //     title: '更新日志',
+    //     sub_title: '网站更新日志',
+    //     desc: '能看到网站的提交记录',
+    //     url: '/update',
+    //     color: 'red',
+    //     ico: 'update'
+    // },
     {
         title: '关于',
         sub_title: '关于本网站',

@@ -3,8 +3,8 @@ import App from './App.vue'
 import router from './router'
 import popup from './components/Popup/popup';
 // vue virtual scroller
-import "vue-virtual-scroller/dist/vue-virtual-scroller.css" // 引入它的 css
-import VueVirtualScroller from "vue-virtual-scroller" // 引入它
+import "vue-virtual-scroller/dist/vue-virtual-scroller.css"; // 引入它的 css
+import VueVirtualScroller from "vue-virtual-scroller"; // 引入它
 
 
 // css
